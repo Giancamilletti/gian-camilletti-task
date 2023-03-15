@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.fondonav{
+  display: flex;
+ justify-content: space-between;
+ align-items:center;
+ background-color: rgb(96, 37, 37);
+ height: 3rem;
+ 
+}
+.fondoindex{
+  margin-left: 1rem;
+ 
+  
+}
+a{
+color: orange;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.contenedorLogo{
+margin-right: 1rem;
+}
+
+.tituloindex1{
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+
+}
+
+.tituloindex2{
+display: flex;
+justify-content: center;
+
+margin-top: 3rem;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.h1index, .h2index{
+  display: flex;
+  justify-content: center;
+  color: black;
+ 
+}
+
+.imagenindex1{
+width: 50rem;
+
+;
+
+}
+
+.imagenindex2{
+width: 20rem;
+
+
+}
+ 
+.contenedorImagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+ .logo1{
+  width: 4rem;
+  
+
+ }
+ 
+ .textoindex{
+   display: flex;
+color: red;
+   width: 20vw;
+   height: 30vh;
+   align-items: center;
+  
+   
+ }
+ .botonindex{
+  display: none;
+ }
+
+ 
+ 
+  .logo1{
+    display: flex;
+  
+  }
+
+ .containerabout{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
+  min-height: 100vh;
+  
+ 
+
+}
+
+ .textimage1{
+  display: flex;
+  
+   color: red;
+width: 50%;
+   height: 14rem;
+
+ }
+
+ .textimage2{
+   display: flex;
+    color: red;
+    justify-content: center;
+    height: 14rem;
+    width: 50%;
+    
+    }
+
+    .textimage3{
+      display: flex;
+      justify-content: center;
+       color: red;
+       height: 14rem;
+       width: 50%;
+       
+       
+       }
+
+    .imagen1, .imagen2, .imagen3{
+       width: 55%;
+      object-fit: cover;
+ }
+
+ .parrafosabout1, .parrafosabout2, .parrafosabout3{
+   padding: 5rem;
+ }
+
+ .mainabaout{
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+
+  
+  }
+ 
+.h1h3contact{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.tituloabout,.subtituloabout{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorcontact{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+ .imagencontact1{
+ width: 45rem;
+ 
+
+ }
+ .parrafocontact1{
+  color: black;
+  
+  
+ }
+
+ .footercontact1{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+ }
+
+ .contenedorsche{
+display: flex;
+justify-content: center;
+ }
+
+ .piecontact{
+display: flex;
+justify-content: space-around;
+width: 40rem;
+margin: 1rem;
+ }
+ 
+
+ .table, tr, th, td{
+  border: solid rgb(106, 46, 3);
+  border-collapse: collapse;
+  
+      
+      
+  }
+  main{
+      margin-top: 3rem;
+  }
+  .titulostabla{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .cabeza1{
+      width: 6rem;
+  }
+  
+  .lista1{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      width: 80vw;
+      align-items: center;
+      margin-top: 2rem;
+      
+  }
+  
+  .imagenbene1,.imagenbene2{
+      width: 20rem;
+  }
+  
+  .parrafolista{
+      width: 27vw;
+  }
+  
+  .lista2{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      width: 80vw;
+      align-items: center;
+      margin-top: 3rem;
+      }
+  
+      .vacio{
+display: none;
+      }
+
+
+
+
+
+
+
+   
+ 
+ 
+  
+
+ 
+   
+ 
+  
+
