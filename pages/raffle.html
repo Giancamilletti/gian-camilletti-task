@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raffle</title>
+    <link rel="stylesheet" href="../styles/style2.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <nav class="fondonav">
+            <div class="fondoindex">
+                <a href="../index.html" class="ancor1">home</a>
+                <a href="./about.html" class="ancor1">About</a>
+                <a href="./contact.html" class="ancor1">Contact</a>
+                <a href="./schedule.html" class="ancor1">schedule</a>
+                <a href="./benefits.html" class="ancor1">benefits</a>
+                <a href="#" class="ancor1">raffle</a>
+            </div>
+            <div class="contenedorLogo">
+                <img class="logo1" src="../images/logo.png" alt="Logotipo" title="Es el logo del GYM">
+            </div>
+        </nav>
+    </header>
+    <main class="mainform">
+    <div class="titulosformulario">
+        <h1>raffle</h1>
+        <h2 class="subraffle">Every month in this section you can participate in a raffle</h2>
+    </div>
+    <div class="contenedorform">
+        <div>
+            <img class="imagenfront1" src="../images/image-1.jpg" alt="">
+            <img class="imagenfront1" src="../images/image-2.jpg" alt="">
+        </div>
+        <form action="./show_data.html" method="get" class="formulario">
+
+            <fieldset class="field">
+                <legend>Participate in our raffle for a month of personalized training</legend>
+                <label for="fina">First Name</label>
+                <input type="text" name=" first name" id="fina">
+
+                <label for="lana">Last name</label>
+                <input type="text" name="Last Name" id="lana">
+
+                <label for="em">Email</label>
+                <input type="text" name="Email" id="em">
+            </fieldset>
+            <label for="choge"> Choose Your Gender:</label>
+            <select name="choge" id="choge" class="select1">
+
+                <option value="">Choose Your Gender</option>
+                <option value="fem">female</option>
+                <option value="mas">male</option>
+                <option value="nobi">others</option>
+            </select>
+            <label for="con">country:</label>
+            <select name="con" id="con" class="select2">
+
+                <option value="">countryr</option>
+                <option value="arg">argentina</option>
+                <option value="col">colombia</option>
+                <option value="chl"> binario</option>
+            </select>
+            <fieldset class="field2">
+
+                <legend>Payment Options</legend>
+                <label for="cash">cash</label> <br>
+                <input type="checkbox" name="cash" id="cash">
+
+                <label for="credi">credit card</label> <br>
+                <input type="checkbox" name="credi" id="credi">
+
+                <label for="debi">debit card</label>
+                <input type="checkbox" name="debi" id="debi">
+            </fieldset>
+            <fieldset class="field3">
+                <legend>Services</legend>
+                <textarea name="serv" id="serv" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <fieldset class="field4">
+                <label for="ter">I aceppt terms and condition</label>
+                <input type="checkbox" name="ter" id="ter">
+            </fieldset>
+
+            <input type="submit" value="Send">
+
+        </form>
+    </div>
+</main>
+
+    <footer class="contenmaps">
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26163.81144277209!2d-57.9835431746871!3d-34.94466571013121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7d80cf88fa7%3A0x32cee18460f91441!2sGimnasio%20Energ%C3%ADa!5e0!3m2!1ses!2sar!4v1678983633711!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+
+</body>
+
+</html>
